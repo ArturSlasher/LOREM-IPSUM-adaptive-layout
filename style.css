@@ -1,0 +1,106 @@
+body {
+    padding-inline: 15vw;
+    font-family: lorem ipsum;
+    padding-bottom: 15px;
+}
+
+.logo {
+    width: 250px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 18px;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid gray;
+    width: 70vw;
+}
+
+nav a {
+    color: gray;
+    padding-block: 5px;
+    padding-inline: 1vw;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: rgb(56, 136, 228);
+}
+
+.section-header {
+    color: gray;
+    text-transform: uppercase;
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+
+hr {
+    background-color: rgb(56, 136, 228);
+    width: 70vw;
+    margin-bottom: 15px;
+}
+
+main {
+    display: flex;
+    gap: 5vw;
+}
+
+.aside-links {
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+    width: 15vw;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+.aside-links a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    padding-block: 8px;
+}
+
+.aside-links a:hover {
+    color: rgb(56, 136, 228);
+}
+
+.aside-photo {
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+    width: 15vw;
+    padding: 8px;
+}
+
+.aside-photo a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(56, 136, 228);
+}
+
+.aside-photo div {
+    background-color: gray;
+    width: calc(100%-16px);
+    height: 10vw;
+    margin-top: 8px;
+}
+
+article h1 {
+    box-sizing: border-box;
+    width: 50vw;
+    background-color: rgb(56, 136, 228);
+    color: white;
+    padding: 10px;
+    padding-top: 15px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+article p {
+    color: gray;
+    font-size: large;
+}
